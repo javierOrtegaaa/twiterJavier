@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Color del título */
+}
+
+.contenedores {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre columnas */
+}
+
+.menu {
+    flex: 1; /* Ocupa 1 parte del espacio */
+    background: #99d1f1; /* Color de fondo del menú */
+    padding: 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    margin-right: 20px; /* Espaciado entre menú y publicaciones */
+}
+
+.vertical-menu {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+}
+
+.vertical-menu li {
+    margin: 15px 0; /* Espaciado entre enlaces */
+}
+
+.vertical-menu a {
+    text-decoration: none; /* Sin subrayado */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Negrita */
+}
+
+.vertical-menu a:hover {
+    color: #e2e5e7;
+}
+
+.publicaciones {
+    flex: 2; /* Ocupa 2 partes del espacio */
+    background: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h2 {
+    color: #333; /* Color de los subtítulos */
+}
+
+textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde */
+    margin-bottom: 10px; /* Espaciado debajo del textarea */
+}
+
+input[type="submit"] {
+    background-color: #1DA1F2; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+input[type="submit"]:hover {
+    background-color: #1DA1F2; /* Color del botón al pasar el ratón */
+}
+
+.tweets-recientes {
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.tweet {
+    background-color: #f9f9f9; /* Fondo del tweet */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado inferior */
+    border-left: 4px solid #1DA1F2; /* Línea a la izquierda */
+}
+
+.tweet p {
+    margin: 0; /* Eliminar margen por defecto */
+}
+
+.tweet small {
+    color: #888; /* Color del texto de la fecha */
+}
+
+.menu {
+    width: 250px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-bottom: 20px;
+}
+
+.menu ul li:last-child {
+    margin-bottom: 0;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ecf0f1;
+    padding: 10px 15px;
+    background-color: #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #1DA1F2;
+    transform: translateY(-3px);
+}

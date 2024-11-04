@@ -1,0 +1,74 @@
+body {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+/* Reiniciar estilos de margen y padding por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal que divide la página en dos mitades */
+.contenedor {
+    display: flex;
+    height: 100vh; /* Altura completa de la ventana */
+    width: 100vw;  /* Ancho completo de la ventana */
+}
+
+/* Sección izquierda que ocupa el 50% del ancho */
+.izquierda {
+    width: 50%;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    background-color:  #1Da1F2; /* Color de fondo claro para la izquierda */
+}
+
+/* Sección derecha que ocupa el 50% del ancho */
+    .derecha {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white; /* Color de fondo más oscuro para la derecha */
+    }
+
+    .txtBienvenida {
+    
+    
+    } 
+
+
+
+
+.txtUnete{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;}
+
+/* Estilo de los formularios y botones */
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los botones */
+}
+
+.boton1, .boton2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #1DA1F2;
+}
